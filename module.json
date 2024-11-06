@@ -1,0 +1,85 @@
+{
+  "id": "arcane-accoutrements",
+  "title": "Arcane Accoutrements",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "packs": [
+    {
+      "name": "arcane-accoutrements-spells",
+      "label": "Arcane Accoutrements - Spells",
+      "path": "packs/arcane-accoutrements-spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "arcane-accoutrements-items",
+      "label": "Arcane Accoutrements - Items",
+      "path": "packs/arcane-accoutrements-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "arcane-accoutrements-feats",
+      "label": "Arcane Accoutrements - Feats",
+      "path": "packs/arcane-accoutrements-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "arcane-accoutrements-class-features",
+      "label": "Arcane Accoutrements - Class Features",
+      "path": "packs/arcane-accoutrements-class-features",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Arcane Accoutrements",
+      "sorting": "a",
+      "packs": [
+            "arcane-accoutrements-spells",
+            "arcane-accoutrements-items",
+            "arcane-accoutrements-feats",
+            "arcane-accoutrements-class-features"
+          ],
+      "folders": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "Brian Brunson",
+	  "name": "Vasco Duarte"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system"
+      }
+    ]
+  },
+  "url": "https://github.com/VascoRodriguesDuarte/arcaneaccoutrements",
+  "manifest": "???",
+  "download": "???"
+}
