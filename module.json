@@ -1,7 +1,7 @@
 {
   "id": "arcane-accoutrements",
   "title": "Arcane Accoutrements",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -50,6 +50,39 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "arcane-accoutrements-actions",
+      "label": "Arcane Accoutrements - Actions",
+      "path": "packs/arcane-accoutrements-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "arcane-accoutrements-vehicles",
+      "label": "Arcane Accoutrements - Vehicles",
+      "path": "packs/arcane-accoutrements-vehicles",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "arcane-accoutrements-class-effects",
+      "label": "Arcane Accoutrements - Effects",
+      "path": "packs/arcane-accoutrements-class-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -57,6 +90,9 @@
       "name": "Arcane Accoutrements",
       "sorting": "a",
       "packs": [
+			"arcane-accoutrements-actions",
+			"arcane-accoutrements-vehicles",
+			"arcane-accoutrements-effects",
             "arcane-accoutrements-spells",
             "arcane-accoutrements-items",
             "arcane-accoutrements-feats",
@@ -65,6 +101,18 @@
       "folders": []
     }
   ],
+  "flags": {
+    "arcane-accoutrements": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "exploit": {
+            "label": "Exploit",
+            "description": "With enough study, a wizard can learn to take advantage of the loopholes and rule gaps of magic to reconstitute its power into another form. This gives the wizard unique and unusual ways to make arcane magic obey them through subverting a spell’s normal behavior by either compressing it into a reactive rebuttal or unraveling it carefully to produce an alternate effect. Using an exploit costs a prepared arcane spell slot with specific qualities and the rank of the spell slot you expend determines the strength of the effects. You can use only one action with the exploit trait per round. For the purposes of counteract checks, exploits are treated as spells equal to the rank of the expended spell."
+          }
+        }
+      }
+    }
+  },
   "authors": [
     {
       "name": "Brian Brunson",
@@ -80,6 +128,6 @@
     ]
   },
   "url": "https://github.com/VascoRodriguesDuarte/arcaneaccoutrements",
-  "manifest": "???",
-  "download": "???"
+  "manifest": "https://raw.githubusercontent.com/VascoRodriguesDuarte/arcaneaccoutrements/refs/heads/master/module.json",
+  "download": "https://github.com/VascoRodriguesDuarte/arcaneaccoutrements/archive/refs/heads/master.zip"
 }
