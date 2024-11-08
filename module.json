@@ -1,7 +1,7 @@
 {
   "id": "arcane-accoutrements",
   "title": "Arcane Accoutrements",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -74,9 +74,9 @@
       }
     },
     {
-      "name": "arcane-accoutrements-class-effects",
+      "name": "arcane-accoutrements-effects",
       "label": "Arcane Accoutrements - Effects",
-      "path": "packs/arcane-accoutrements-class-effects",
+      "path": "packs/arcane-accoutrements-effects",
       "type": "Item",
       "system": "pf2e",
       "ownership": {

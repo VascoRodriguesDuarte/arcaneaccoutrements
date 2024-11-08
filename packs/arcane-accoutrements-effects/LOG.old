@@ -1,0 +1,5 @@
+2024/11/07-02:59:30.530 11ec Recovering log #3
+2024/11/07-02:59:30.530 11ec Level-0 table #5: started
+2024/11/07-02:59:30.532 11ec Level-0 table #5: 8204 bytes OK
+2024/11/07-02:59:30.536 11ec Delete type=0 #3
+2024/11/07-02:59:30.536 11ec Delete type=3 #2
