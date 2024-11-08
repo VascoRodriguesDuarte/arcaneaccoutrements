@@ -1,5 +1,5 @@
-2024/11/08-02:26:45.758 dac Recovering log #8
-2024/11/08-02:26:45.758 dac Level-0 table #10: started
-2024/11/08-02:26:45.761 dac Level-0 table #10: 18848 bytes OK
-2024/11/08-02:26:45.764 dac Delete type=0 #8
-2024/11/08-02:26:45.764 dac Delete type=3 #7
+2024/11/08-02:37:10.599 888 Recovering log #11
+2024/11/08-02:37:10.600 888 Level-0 table #13: started
+2024/11/08-02:37:10.608 888 Level-0 table #13: 3473 bytes OK
+2024/11/08-02:37:10.612 888 Delete type=0 #11
+2024/11/08-02:37:10.612 888 Delete type=3 #9
